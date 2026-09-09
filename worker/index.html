@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Trendify Setup</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Effects -->
+    <div class="background">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="grid"></div>
+    </div>
+
+    <main class="container">
+
+        <!-- Brand -->
+        <div class="brand">
+
+            <div class="brand-icon">
+                <span>⚡</span>
+            </div>
+
+            <div class="brand-name">
+                TRENDIFY
+            </div>
+
+        </div>
+
+        <!-- Main Card -->
+        <section class="card">
+
+            <div class="badge">
+                <span class="pulse"></span>
+                سیستم آماده راه‌اندازی
+            </div>
+
+            <h1>
+                Trendify
+                <span>Setup</span>
+            </h1>
+
+            <p class="subtitle">
+                راه‌اندازی خودکار زیرساخت شما،
+                سریع‌تر و ساده‌تر از همیشه.
+            </p>
+
+            <!-- Step Indicator -->
+            <div class="steps">
+
+                <div class="step active">
+                    <div class="step-number">1</div>
+                    <span>GitHub</span>
+                </div>
+
+                <div class="step-line"></div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <span>Cloudflare</span>
+                </div>
+
+                <div class="step-line"></div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <span>Deploy</span>
+                </div>
+
+            </div>
+
+            <!-- GitHub Section -->
+            <div class="section-title">
+                <div class="section-icon">◈</div>
+
+                <div>
+                    <strong>اتصال به GitHub</strong>
+                    <small>برای ساخت خودکار پروژه</small>
+                </div>
+            </div>
+
+            <div class="form-group">
+
+                <label for="githubToken">
+                    GitHub Token
+                </label>
+
+                <div class="input-wrapper">
+
+                    <span class="input-icon">🔐</span>
+
+                    <input
+                        id="githubToken"
+                        type="password"
+                        placeholder="توکن GitHub را وارد کنید"
+                        autocomplete="off"
+                    >
+
+                    <button
+                        type="button"
+                        class="show-password"
+                        id="togglePassword"
+                    >
+                        ◉
+                    </button>
+
+                </div>
+
+                <div class="hint">
+                    🔒 توکن شما ذخیره نخواهد شد.
+                </div>
+
+            </div>
+            <!-- Cloudflare Section -->
+            <div class="section-title">
+
+                <div class="section-icon">☁</div>
+
+                <div>
+                    <strong>اتصال به Cloudflare</strong>
+                    <small>برای ساخت خودکار Worker</small>
+                </div>
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="cloudflareToken">
+                    Cloudflare API Token
+                </label>
+
+                <div class="input-wrapper">
+
+                    <span class="input-icon">🔐</span>
+
+                    <input
+                        id="cloudflareToken"
+                        type="password"
+                        placeholder="توکن Cloudflare را وارد کنید"
+                        autocomplete="off"
+                    >
+
+                    <button
+                        type="button"
+                        class="show-password"
+                        id="toggleCloudflarePassword"
+                    >
+                        ◉
+                    </button>
+
+                </div>
+
+                <div class="hint">
+                    🔒 توکن شما ذخیره نخواهد شد.
+                </div>
+
+            </div>
+<div class="form-group">
+
+    <label for="cloudflareAccountId">
+        Cloudflare Account ID
+    </label>
+
+    <div class="input-wrapper">
+
+        <span class="input-icon">🆔</span>
+
+        <input
+            id="cloudflareAccountId"
+            type="text"
+            placeholder="Account ID را وارد کنید"
+            autocomplete="off"
+        >
+
+    </div>
+
+    <div class="hint">
+        ℹ️ از بخش Overview اکانت Cloudflare قابل مشاهده است.
+    </div>
+
+</div>
+
+            <!-- Start Button -->
+            <button
+                id="startButton"
+                class="start-button"
+            >
+
+                <span class="button-icon">🚀</span>
+
+                <span>
+                    شروع Setup
+                </span>
+
+                <span class="arrow">←</span>
+
+            </button>
+
+            <!-- Status -->
+            <div
+                id="status"
+                class="status hidden"
+            ></div>
+
+            <!-- Footer -->
+            <div class="card-footer">
+
+                <span>
+                    ساخته شده با ❤️
+                </span>
+
+                <strong>
+                    TRENDIFY
+                </strong>
+
+            </div>
+
+        </section>
+
+        <div class="copyright">
+            TRENDIFY SETUP • AUTOMATION PLATFORM
+        </div>
+
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
