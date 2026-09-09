@@ -6,6 +6,7 @@
 ### 🌐 Connect with Trendify
 
 📺 **YouTube:** [@trendify61](https://www.youtube.com/@trendify61)
+
 💬 **Telegram:** [@multi_bit](https://t.me/multi_bit)
 
 اگر از پروژه‌های Trendify استفاده می‌کنید، با **⭐ Star** کردن Repository و دنبال کردن کانال‌های ما از پروژه حمایت کنید. ❤️
