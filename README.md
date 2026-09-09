@@ -242,9 +242,9 @@ The main goal is to turn complex technical workflows into a simple and accessibl
 
 Add a dashboard screenshot inside the `assets` directory:
 
-```text
+text
 ![trendify-pnanel](assets/dashboard-preview.png)
-```
+
 
 ---
 
