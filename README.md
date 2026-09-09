@@ -58,9 +58,12 @@
 
 برای نمایش تصویر داشبورد می‌توانی یک اسکرین‌شات در پوشه `assets` قرار بدهی:
 
-```text
+```markdown
+## 📸 پیش‌نمایش
+
+برای نمایش تصویر داشبورد:
+
 ![Trendify Dashboard](assets/dashboard-preview.png)
-```
 
 ---
 
